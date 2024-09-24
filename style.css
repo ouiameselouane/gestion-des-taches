@@ -1,0 +1,468 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1051dd;
+    box-shadow: 0.3rem 0.3rem 0.3rem rgb(149, 140, 236);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+i {
+    color: cyan;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 300px;
+}
+
+
+.background-section {
+    height: calc(100vh - 4rem);
+    width: 100%;
+    background-image: url('IMAGE/3a11ddc2aa1a9eebb851d9f5081bb4d5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+}
+
+button.btn {
+    background-color: white;
+    border: 1px solid #1a1515;
+    padding: 0.5rem 1rem;
+    border-radius: 0.6rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.btn a {
+    color: #dd2810;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.top-division, .bottom-division {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 4rem;
+}
+
+ion-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.division {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 300px;
+    height: 200px;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: .3rem .3rem .3rem rgb(184, 181, 181);
+    transition: .1s ease-in-out;
+}
+
+.division:hover {
+    scale: 1.02;
+}
+
+.red {
+    background-color: #e57373;
+    border: .1rem solid rgb(235, 10, 10);
+}
+
+.blue {
+    background-color: #64b5f6;
+    border: .1rem solid rgb(10, 33, 235);
+}
+
+.blue img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.green {
+    background-color: #81c784;
+    border: .1rem solid rgb(83, 240, 10);
+}
+
+.yellow {
+    background-color: #ddce4a;
+    border: .1rem solid rgb(231, 235, 10);
+}
+
+.background-main {
+    height: calc(100vh - 7rem);
+    width: 100%;
+    background-image: url('IMAGE/M.Keyataa.1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.lien-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.lien {
+    background-color: white;
+    border: 1px solid #1a1515;
+    padding: 0.5rem 1rem;
+    border-radius: 0.6rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #dd2810; /* Couleur du texte des liens */
+    text-decoration: none; /* Retire le soulignement du lien */
+}
+
+
+
+
+
+
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    padding: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width:66%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.page-indication{
+    display: flex;
+}
+#logout {
+    display: flex;
+   
+}
+
+#logout ion-icon {
+    width: 30px;
+    color: #131212;
+}
+
+#main {
+    margin-top: -3rem;
+}
+
+.control {
+    padding: 0 1rem;
+}
+/* style.css */
+
+.nav-container {
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Aligne les éléments de manière équitable */
+    
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+nav .liens {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* Style pour les liens dans la navigation */
+nav a {
+    text-decoration: none;
+    color: #a8b5d3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/* Style pour les liens de navigation au survol (hover) */
+nav a:hover {
+    color: #1051dd;
+    text-decoration: underline;
+}
+
+
+.search-container {
+    flex-grow: 1; /* Prend toute la largeur disponible */
+    margin: 0 15px;
+}
+
+#search {
+    padding: 0.5rem;
+    border: 1px solid #1a1515;
+    border-radius: 0.6rem;
+    width: 60%; /* Adapte à la largeur du conteneur */
+}
+#transfert button {
+    display: inline-block; /* Assure que l'élément s'affiche correctement comme un bouton */
+    padding: 0.5rem;
+    width:20rem ;
+    border-radius: 0.6rem;
+    background-color: #ca3b72; /* Ajoute une couleur de fond */
+    color: #ffffff; /* Ajoute une couleur de texte */
+    border: 1px solid black; /* Ajoute une bordure noire */
+    text-decoration: none; /* Assure que le texte n'est pas souligné */
+    cursor: pointer; /* Change le curseur pour indiquer que c'est cliquable */
+}
+
+
+#transfert button:hover {
+    background-color: #d39bc2; 
+    /* Change la couleur de fond au survol */
+}
+
+#ajout_btn {
+   background-color: #3cec4b;
+   padding: 0.6rem;
+   border-radius: 0.6rem;
+}
+.logout{
+    margin-left: auto;
+}
+
+.todo{
+    display: flex;
+    gap: 2rem;
+    z-index: 99;
+
+    h3{
+        color: hsl(0, 86%, 46%);
+    }
+}
+
+.todo button{
+   margin: 1rem;
+   border-radius: 0.4rem ;
+   background-color: #1bc424;
+   color: white;
+   margin-left: auto;
+}
+
+.tache {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #abc0cc;
+    margin: 20px;
+    padding: 20px;
+}
+
+.tache label {
+    display: flex;
+    gap: 5px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+    gap: 2rem;
+}
+
+input[type="checkbox"]:disabled {
+    opacity: 1 !important;
+    background-color: #cc2d2d !important;
+    border: 1px solid #ccc !important;
+}
+
+input[readonly] {
+    color: #000 !important;
+    background-color: #f0f0f0 !important;
+    border: 1px solid #ccc !important;
+}
+
+.delete-div button{
+    display: flex;
+    margin-left: auto;
+}
+
+.delete-div ion-icon {
+    width: 25px;
+    height: 25px;
+    color: #dd2810;
+   
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+label{
+    font-weight: bold;
+}
+#submit-btn{
+    background-color: #1051dd;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+#form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+    background-color: #abc0cc;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.1);
+}
+
+#form-section label {
+    font-weight: bold;
+}
+
+#form-section input[type="text"], #form-section textarea, #form-section input[type="date"], #form-section input[type="file"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+.buutn{
+    margin-top: 1rem;
+   margin-left: 180px;
+}
+#add-btn {
+    background-color: #1051dd;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background-color: #0a41bb;
+}
+.page-indication{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin: 0 2rem; 
+
+}
+.statis{
+    
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.div{
+    height: 6rem;
+    min-width: 10rem;
+    padding: .5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    background-color: #fdfdfd;
+    border-radius: .2rem;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0.5rem 0.2rem 1rem rgba(0, 0, 0, 0.4);
+    transition: .1s ease-in-out;
+          
+    &:hover {
+        scale: 1.02;
+    }
+
+    span{
+        display: flex;
+       flex-direction: column;
+        height: 100%;
+        padding-top: 25px;
+        text-transform: capitalize;
+        color: white;
+    }
+}
+
+.d1 {
+    background-color: #4a93b8;
+    
+}
+.d2{
+    background-color: chocolate;
+}
+#filter{
+
+    width: max-content;
+   
+}

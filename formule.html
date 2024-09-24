@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infos Générales</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Informations Générales</h1>
+    </header>
+
+    <div class="nav-container">
+        <nav>
+            <div class="liens">  
+                <a href="formule.html">Infos Générales</a>
+                <a href="todo.php">To-Do List</a>
+            </div>
+            <div class="logout" id="logout">
+                <a href="tache.php">
+                    <ion-icon name="log-out-outline"></ion-icon>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <section id="form-section">
+            <form action="recup-info.php" method="post">
+                <div>
+                    <label>Ligne de Couture:</label>
+                    <input type="text" name="ligne" required>
+                    
+                    <label>Matricule de la Couturière:</label>
+                    <input type="text" name="matricule" required>
+                    
+                    <label>Matricule de l'Agent de Méthode:</label>
+                    <input type="text" name="agent" required>
+                    
+                    <div class="buutn">
+                        <button id="add-btn" type="submit" name="Infos">Soumettre</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

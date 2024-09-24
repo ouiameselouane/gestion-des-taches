@@ -1,0 +1,7 @@
+ID	ID Info	Ligne	Couturier	Agent	Nom	Description	Status	Vidéo	Date Début	Date Fin
+------------------------------------------------------------------------------------------------------------------------
+449	62	5	71	M.Ilyass	tache1	bien fait	fait	WIN_20240719_23_41_06_Pro.mp4	2024-08-24 17:13:28	2024-08-24 17:16:06
+490	73	1	34	ouiame	tache2	desciption	fait	WhatsApp Video 2024-08-12 at 20.22.34.mp4	2024-08-24 16:14:06	2024-08-24 16:55:35
+498	76	91	19	14	couture 1	tout les talle large ,petit et moyenne	fait	WhatsApp Video 2024-09-19 at 00.16.09.mp4	2024-09-19 00:05:39	2024-09-19 00:05:44
+499	76	91	19	14	couture 2	juste les taille petit avec .....	fait	WhatsApp Video 2024-09-19 at 00.16.19.mp4	N/A	2024-09-19 00:05:49
+500	76	91	19	14	couture 3	commande urgent... détailles	fait	WhatsApp Video 2024-09-19 at 00.16.52.mp4	N/A	2024-09-19 00:05:52
